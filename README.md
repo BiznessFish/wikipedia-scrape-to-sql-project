@@ -37,7 +37,7 @@ Some notes on the parsing of this particular page:
 
 - The first table in the list is just a table of contents, so we can just ignore it when preprocessing.
 
-- There were a few cleaning problems that were solved also. First among them is that there were a few rows that were just empty for every single field. I'm not certain of what is causing this, but it is easily solved after scraping by just dropping all of the rows that only contain empty values.
+- Certain tables contained rows that had all empty values. These were dropped.
 
 - Some fields were moved into the Notes field. THey were added into the end of each Notes field preceded by what the field was and its associated value. For example, the Retired Names field was added into notes as "Retired Storm(s): [value]".
 
