@@ -27,7 +27,7 @@ The sql_queries.py file demonstrates how to run a SQL query using the scraped .d
 
 Some notes on the parsing of this particular page:
 
-- The HTML on the Wikipedia page when you look at inspect element for the Wikipedia page does not match up 100% with the HTML page obtained from curl/wget. There are some CSS classes that aren't there, and some tags that are missing. To understand the format you have to look at the obtained file. For example, getting all of the tables from the HTML file involved looking for the tag <table> and the class 'wikitable'.
+- The HTML on the Wikipedia page when you look at inspect element for the Wikipedia page does not match up 100% with the HTML page obtained from curl/wget. There are some CSS classes that aren't there, and some tags that are missing. To understand the format you have to look at the obtained file. For example, getting all of the tables from the HTML file involved looking for the tag \<table\> and the class 'wikitable'.
 
 - Since all of the tables have a different number of headers, the decision was made to scrape each of these tables into their own object, so that we have a lsit of all the tables.
 
