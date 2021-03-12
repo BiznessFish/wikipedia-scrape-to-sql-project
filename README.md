@@ -1,5 +1,5 @@
 # wikipedia-scrape-to-sql-project
-Example project of scraping data from wikipedia and storing it in a sqlite3 database
+Example project of scraping data from Wikipedia using BeautifulSoup and storing it in a sqlite3 database
 
 # Explanation
 
