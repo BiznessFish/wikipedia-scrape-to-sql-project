@@ -6,7 +6,7 @@ Example project of scraping data from wikipedia and storing it in a sqlite3 data
 This is an example project to demonstrate web-scraping from Wikipedia. A sqlite3 database is used in place of a database connection.
 
 The HTML file provided was obtained using `curl`:
-`curl -o hurricanes.html https://en.wikipedia.org/wiki/Atlantic_hurricane_season`
+```curl -o hurricanes.html https://en.wikipedia.org/wiki/Atlantic_hurricane_season```
 
 The Python script will create a .db file if there isn't one already there. A .sql script to create a table has been provided. If the idea is to create an empty .db file with one table, sqlite3 can do that.
 
