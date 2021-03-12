@@ -21,7 +21,7 @@ First, make sure sqlite3 is installed. Then, run:
 
 The .sql script will run and create a .db file with a table called `atlantic_hurricanes`, without any entries.
 
-Through the Python script hurricanes.py, everything is auto-magically created with pandas. Be sure that Pandas and BeautifulSoup are installed. There is some added flexibility with this second method as you can insert rows without having to save things to Pandas, and allows for some finer control. 
+Through the Python script hurricanes.py, everything is auto-magically created with pandas (be sure that Pandas and BeautifulSoup are installed!) There is some added flexibility with this second method as you can insert rows without having to save things to Pandas, and allows for some finer control. 
 
 The sql_queries.py file demonstrates how to run a SQL query using the scraped .db file.
 
