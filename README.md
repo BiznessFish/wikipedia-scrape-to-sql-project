@@ -3,9 +3,7 @@ Example project of scraping data from Wikipedia using BeautifulSoup and storing 
 
 # Explanation
 
-This is an example project to demonstrate web-scraping [a page on Wikipedia](https://en.wikipedia.org/wiki/Atlantic_hurricane_season). Let's say we are interested in getting all of the data for hurricanes that we have available, and want to store them in a SQL database.*
-
-*A sqlite3 database is used in place of an actual database.
+This is an example project to demonstrate web-scraping [a page on Wikipedia](https://en.wikipedia.org/wiki/Atlantic_hurricane_season). Let's say we are interested in getting all of the data for hurricanes that we have available, and want to store them in a SQL database (sqlite3)
 
 The HTML file provided was obtained using `curl`:
 
